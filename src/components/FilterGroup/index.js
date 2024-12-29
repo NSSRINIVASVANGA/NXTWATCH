@@ -2,7 +2,7 @@ import NxtWatchContext from '../../context/NxtWatchContext'
 import FilterItem from '../FilterItem'
 import './index.css'
 
-const FiterGroup = () => (
+const FilterGroup = () => (
   <NxtWatchContext.Consumer>
     {value => {
       const {isDark, filterItemList} = value
@@ -48,4 +48,4 @@ const FiterGroup = () => (
   </NxtWatchContext.Consumer>
 )
 
-export default FiterGroup
+export default FilterGroup
